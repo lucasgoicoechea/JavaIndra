@@ -1,0 +1,7 @@
+TUTORIALES OFICIALS
+Clase abstract
+https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
+
+interface
+https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
+

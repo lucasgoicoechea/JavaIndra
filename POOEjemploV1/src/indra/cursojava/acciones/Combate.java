@@ -1,6 +1,7 @@
 package indra.cursojava.acciones;
 
 import indra.cursoja.entidad.Pokemon;
+import indra.cursoja.entidad.TipoPokemon;
 
 public class Combate {
 	
@@ -10,8 +11,9 @@ public class Combate {
 	
 	public Pokemon battle() {
 		//FIXME: generar funcionalidad real
+		System.out.println(TipoPokemon.values(playerOne.type));
 		if (playerOne.attackPower > playerTwo.attackPower) {
-			return playerOne;
+			return this.playerOne;
 		}
 		return playerTwo;
 	}

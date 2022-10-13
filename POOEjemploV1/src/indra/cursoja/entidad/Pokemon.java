@@ -4,7 +4,9 @@ public class Pokemon {
 	
 	public String name = "Pokemon";
 	int evolution = 0;
-	String type= "Air";
+	
+	public TipoPokemon type = TipoPokemon.DRAGON;
+	
 	public int attackPower = 1;
 	int defensePower = 1;
 	
