@@ -14,12 +14,14 @@ https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
 
 ----- EJERCICIO Objetos 2 -------  
 1) Crea una clase llamada Cuenta que tendrá los siguientes atributos: titular y cantidad (puede tener decimales).
-
+(
 El titular será obligatorio y la cantidad es opcional. Crea dos constructores que cumpla lo anterior.
 Crea sus métodos get, set y toString.
 Tendrá dos métodos especiales:
-ingresar(double cantidad): se ingresa una cantidad a la cuenta, si la cantidad introducida es negativa, no se hará nada.
-retirar(double cantidad): se retira una cantidad a la cuenta, si restando la cantidad actual a la que nos pasan es negativa, la cantidad de la cuenta pasa a ser 0.
+ingresar(double cantidad): se ingresa una cantidad a la cuenta, si la cantidad introducida es negativa, 
+no se hará nada.
+retirar(double cantidad): se retira una cantidad a la cuenta, si restando la cantidad actual a la que 
+nos pasan es negativa, la cantidad de la cuenta pasa a ser 0.
 
 2) Haz una clase llamada Persona que siga las siguientes condiciones:
 Sus atributos son: nombre, edad, DNI, sexo (H hombre, M mujer), peso y altura. No queremos que se accedan directamente a ellos. Piensa que modificador de acceso es el más adecuado, también su tipo. Si quieres añadir algún atributo puedes hacerlo.
