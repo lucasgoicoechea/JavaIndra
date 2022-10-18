@@ -16,11 +16,11 @@ public class Main {
 		set.add(elemento1);
 		set.add(elemento2);
 		set.add(elemento3);
-		int contador = 1;
+
 		for (ElementoDeSet elementoDeSet : set) {
-			elementoDeSet.setOrden(contador);
+			elementoDeSet.setOrden(elementoDeSet.hashCode());
 			System.out.println(elementoDeSet.toString());
-			contador++;
+
 		}
 		
 	}
