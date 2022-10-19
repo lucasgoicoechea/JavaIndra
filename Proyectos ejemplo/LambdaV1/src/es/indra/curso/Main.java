@@ -3,12 +3,14 @@ package es.indra.curso;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class Main {
 
 	public static void main(String[] args) {
-		List<BigDecimal> miWalletBalance = new ArrayList<>();
+		List<BigDecimal> miWalletBalance = null;
+		miWalletBalance = new ArrayList<>();
 		// cargamos cuenta en bitcoints
 		miWalletBalance.add(new BigDecimal(23.4));
 		// cargamos saldo en euros
@@ -19,8 +21,17 @@ public class Main {
 		// lambdaTipoFunction(miWalletBalance);
 		// lambdaTipoConsumers(miWalletBalance);
 		//lambdaTipoPredicate(miWalletBalance);
-		lambdaTipoSupplier(miWalletBalance);
+		//lambdaTipoSupplier(miWalletBalance);
+		
+		lambdaOptionalEjemplo(miWalletBalance);
 
+	}
+
+	private static void lambdaOptionalEjemplo(List<BigDecimal> miWalletBalance) {
+		Optional<BigDecimal> miStringBalance = miWalletBalance.stream().reduce((t, u) -> u.add(t));
+		if (miStringBalance.isPresent()) {
+			System.out.println(miStringBalance.get().toString());
+		}
 	}
 
 	private static void lambdaTipoSupplier(List<BigDecimal> miWalletBalance) {
@@ -48,9 +59,16 @@ public class Main {
 	}
 
 	private static void lambdaTipoConsumers(List<BigDecimal> miWalletBalance) {
+		
+		final double sumarizados = 0.00;
+		
 		// LAMBDA, Consumer (T) stream.Consumer.T
-		miWalletBalance.stream().forEach(T -> System.out.println("valor del saldo " + T.doubleValue()));
-
+		miWalletBalance.stream().forEach(T -> {
+					System.out.println("valor del saldo " + T.doubleValue());
+			});
+         
+	
+		
 		// NO LAMBDA
 		for (BigDecimal T : miWalletBalance) {
 			System.out.println("valor del saldo " + T.doubleValue());
@@ -59,7 +77,8 @@ public class Main {
 
 	private static void lambdaTipoFunction(List<BigDecimal> miWalletBalance) {
 		double testTotalSaldo = 23.4 + 120.89;
-
+	
+		
 		// LAMBDA, Function (T,R) R = stream.Function.T
 		BigDecimal totalSaldo = miWalletBalance.stream().reduce(BigDecimal.ZERO, BigDecimal::add);
 
