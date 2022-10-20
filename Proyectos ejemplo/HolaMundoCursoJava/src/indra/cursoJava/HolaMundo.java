@@ -2,7 +2,7 @@ package indra.cursoJava;
 
 
 public class HolaMundo {
-
+ 
 	public static void main(String[] args) {
 		//CTRL+SPACE
 		// System.out.print("Primer metodo de ejecucion");
