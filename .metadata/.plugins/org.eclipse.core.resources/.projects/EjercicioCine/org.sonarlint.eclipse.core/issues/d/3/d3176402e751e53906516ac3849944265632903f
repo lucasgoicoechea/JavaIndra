@@ -1,0 +1,43 @@
+
+E
+java:S1220""Move this file to a named package.HWRMINORZ
+CODE_SMELL
+W
+java:S1068",Remove this unused "entradas" private field.(ëÖˆİHXRMAJORZ
+CODE_SMELL
+T
+java:S1068")Remove this unused "salas" private field.(àŞ¿ÿHYRMAJORZ
+CODE_SMELL
+b
+java:S1068"2Remove this unused "programaciones" private field.(ÓáÅ²üÿÿÿÿHZRMAJORZ
+CODE_SMELL
+T
+java:S1068")Remove this unused "cines" private field.(×À§óH[RMAJORZ
+CODE_SMELL
+Y
+java:S1068".Remove this unused "personajes" private field.(Ò¹³H\RMAJORZ
+CODE_SMELL
+[
+java:S1068"+Remove this unused "actores" private field.(¬©úÛşÿÿÿÿH]RMAJORZ
+CODE_SMELL
+b
+java:S1068"2Remove this unused "calificaciones" private field.(±øúÿÿÿÿÿH^RMAJORZ
+CODE_SMELL
+d
+java:S1068	"4Remove this unused "horarioFunciones" private field.(¢ÛëÑüÿÿÿÿH_RMAJORZ
+CODE_SMELL
+›
+java:S13198"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹±éìH`RMINORZ
+CODE_SMELL
+Y
+java:S1068")Remove this unused "roles" private field.(æÑÒœüÿÿÿÿHaRMAJORZ
+CODE_SMELL
+ 
+java:S1319""pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¿ÓĞùøÿÿÿÿHbRMINORZ
+CODE_SMELL
+ 
+java:S1319A"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¶Ë€šùÿÿÿÿHcRMINORZ
+CODE_SMELL
+›
+java:S1319."pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(”ÜÅ‰HdRMINORZ
+CODE_SMELL

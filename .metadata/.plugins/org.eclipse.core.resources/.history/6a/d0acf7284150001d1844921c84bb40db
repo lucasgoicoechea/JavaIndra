@@ -1,0 +1,23 @@
+
+public class Genero {
+	String nombre;
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Genero(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+	@Override
+	public String toString() {
+		return "Genero [nombre=" + nombre + "]";
+	}
+	
+}

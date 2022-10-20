@@ -1,0 +1,37 @@
+
+public class Actor {
+	boolean animado;
+	String apellido;
+	String nombre;
+	public boolean isAnimado() {
+		return animado;
+	}
+	public void setAnimado(boolean animado) {
+		this.animado = animado;
+	}
+	public String getApellido() {
+		return apellido;
+	}
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public Actor(boolean animado, String apellido, String nombre) {
+		super();
+		this.animado = animado;
+		this.apellido = apellido;
+		this.nombre = nombre;
+	}
+	@Override
+	public String toString() {
+		return "Actor [animado=" + animado + ", apellido=" + apellido + ", nombre=" + nombre + "]";
+	}
+	
+	
+	}
+

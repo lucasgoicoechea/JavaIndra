@@ -1,0 +1,42 @@
+
+‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€’¥¨üÿÿÿÿHxRMINORZ
+CODE_SMELL
+¨
+java:S1319$"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¿ÓĞùøÿÿÿÿ8óŞ ¿0H®RMINORZ
+CODE_SMELL
+£
+java:S13190"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(”ÜÅ‰8óŞ ¿0H¯RMINORZ
+CODE_SMELL
+£
+java:S1319:"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹±éì8óŞ ¿0H°RMINORZ
+CODE_SMELL
+¨
+java:S1319C"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¶Ë€šùÿÿÿÿ8óŞ ¿0H±RMINORZ
+CODE_SMELL
+c
+java:S1068"+Remove this unused "actores" private field.(¬©úÛşÿÿÿÿ8óŞ ¿0H²RMAJORZ
+CODE_SMELL
+j
+java:S1068"2Remove this unused "calificaciones" private field.(±øúÿÿÿÿÿ8óŞ ¿0H³RMAJORZ
+CODE_SMELL
+\
+java:S1068")Remove this unused "cines" private field.(×À§ó8óŞ ¿0H´RMAJORZ
+CODE_SMELL
+_
+java:S1068	",Remove this unused "entradas" private field.(ëÖˆİ8óŞ ¿0HµRMAJORZ
+CODE_SMELL
+l
+java:S1068"4Remove this unused "horarioFunciones" private field.(¢ÛëÑüÿÿÿÿ8óŞ ¿0H¶RMAJORZ
+CODE_SMELL
+a
+java:S1068".Remove this unused "personajes" private field.(Ò¹³8óŞ ¿0H·RMAJORZ
+CODE_SMELL
+j
+java:S1068"2Remove this unused "programaciones" private field.(ÓáÅ²üÿÿÿÿ8óŞ ¿0H¸RMAJORZ
+CODE_SMELL
+a
+java:S1068")Remove this unused "roles" private field.(æÑÒœüÿÿÿÿ8óŞ ¿0H¹RMAJORZ
+CODE_SMELL
+\
+java:S1068")Remove this unused "salas" private field.(àŞ¿ÿ8óŞ ¿0HºRMAJORZ
+CODE_SMELL

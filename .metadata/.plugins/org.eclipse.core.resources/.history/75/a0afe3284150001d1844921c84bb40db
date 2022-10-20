@@ -1,0 +1,63 @@
+
+public class HorarioFuncion {
+	String diaSemana;
+	int duracionIntervalo;
+	int duracionPublicidad;
+	boolean esTrasnoche;
+	String horaPrimeraFuncion;
+	String horaUltimaFuncion;
+	public String getDiaSemana() {
+		return diaSemana;
+	}
+	public void setDiaSemana(String diaSemana) {
+		this.diaSemana = diaSemana;
+	}
+	public int getDuracionIntervalo() {
+		return duracionIntervalo;
+	}
+	public void setDuracionIntervalo(int duracionIntervalo) {
+		this.duracionIntervalo = duracionIntervalo;
+	}
+	public int getDuracionPublicidad() {
+		return duracionPublicidad;
+	}
+	public void setDuracionPublicidad(int duracionPublicidad) {
+		this.duracionPublicidad = duracionPublicidad;
+	}
+	public boolean isEsTrasnoche() {
+		return esTrasnoche;
+	}
+	public void setEsTrasnoche(boolean esTrasnoche) {
+		this.esTrasnoche = esTrasnoche;
+	}
+	public String getHoraPrimeraFuncion() {
+		return horaPrimeraFuncion;
+	}
+	public void setHoraPrimeraFuncion(String horaPrimeraFuncion) {
+		this.horaPrimeraFuncion = horaPrimeraFuncion;
+	}
+	public String getHoraUltimaFuncion() {
+		return horaUltimaFuncion;
+	}
+	public void setHoraUltimaFuncion(String horaUltimaFuncion) {
+		this.horaUltimaFuncion = horaUltimaFuncion;
+	}
+	public HorarioFuncion(String diaSemana, int duracionIntervalo, int duracionPublicidad, boolean esTrasnoche,
+			String horaPrimeraFuncion, String horaUltimaFuncion) {
+		super();
+		this.diaSemana = diaSemana;
+		this.duracionIntervalo = duracionIntervalo;
+		this.duracionPublicidad = duracionPublicidad;
+		this.esTrasnoche = esTrasnoche;
+		this.horaPrimeraFuncion = horaPrimeraFuncion;
+		this.horaUltimaFuncion = horaUltimaFuncion;
+	}
+	@Override
+	public String toString() {
+		return "HorarioFuncion [diaSemana=" + diaSemana + ", duracionIntervalo=" + duracionIntervalo
+				+ ", duracionPublicidad=" + duracionPublicidad + ", esTrasnoche=" + esTrasnoche
+				+ ", horaPrimeraFuncion=" + horaPrimeraFuncion + ", horaUltimaFuncion=" + horaUltimaFuncion + "]";
+	}
+	
+	
+}

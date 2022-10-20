@@ -1,0 +1,24 @@
+
+public class Personaje {
+	String nombrePelicula;
+
+	public String getNombrePelicula() {
+		return nombrePelicula;
+	}
+
+	public void setNombrePelicula(String nombrePelicula) {
+		this.nombrePelicula = nombrePelicula;
+	}
+
+	public Personaje(String nombrePelicula) {
+		super();
+		this.nombrePelicula = nombrePelicula;
+	}
+
+	@Override
+	public String toString() {
+		return "Personaje [nombrePelicula=" + nombrePelicula + "]";
+	}
+	
+	
+}

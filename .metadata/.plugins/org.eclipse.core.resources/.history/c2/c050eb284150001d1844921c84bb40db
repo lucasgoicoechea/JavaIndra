@@ -1,0 +1,37 @@
+
+public class Programacion {
+	String fechaFin;
+	String fechaHoraCreada;
+	String fechaInicio;
+	public String getFechaFin() {
+		return fechaFin;
+	}
+	public void setFechaFin(String fechaFin) {
+		this.fechaFin = fechaFin;
+	}
+	public String getFechaHoraCreada() {
+		return fechaHoraCreada;
+	}
+	public void setFechaHoraCreada(String fechaHoraCreada) {
+		this.fechaHoraCreada = fechaHoraCreada;
+	}
+	public String getFechaInicio() {
+		return fechaInicio;
+	}
+	public void setFechaInicio(String fechaInicio) {
+		this.fechaInicio = fechaInicio;
+	}
+	public Programacion(String fechaFin, String fechaHoraCreada, String fechaInicio) {
+		super();
+		this.fechaFin = fechaFin;
+		this.fechaHoraCreada = fechaHoraCreada;
+		this.fechaInicio = fechaInicio;
+	}
+	@Override
+	public String toString() {
+		return "Programacion [fechaFin=" + fechaFin + ", fechaHoraCreada=" + fechaHoraCreada + ", fechaInicio="
+				+ fechaInicio + "]";
+	}
+	
+	
+}

@@ -1,0 +1,28 @@
+
+public class Sala {
+ int capacidad;
+ int numero;
+public int getCapacidad() {
+	return capacidad;
+}
+public void setCapacidad(int capacidad) {
+	this.capacidad = capacidad;
+}
+public int getNumero() {
+	return numero;
+}
+public void setNumero(int numero) {
+	this.numero = numero;
+}
+public Sala(int capacidad, int numero) {
+	super();
+	this.capacidad = capacidad;
+	this.numero = numero;
+}
+@Override
+public String toString() {
+	return "Sala [capacidad=" + capacidad + ", numero=" + numero + "]";
+}
+ 
+ 
+}
