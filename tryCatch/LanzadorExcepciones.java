@@ -2,7 +2,7 @@ package tryCatch;
 
 import java.io.IOException;
 import java.util.Scanner;
-import java.lang.ArithmeticException;
+//import java.lang.ArithmeticException;
 
 public class LanzadorExcepciones {
 
@@ -21,7 +21,6 @@ public class LanzadorExcepciones {
         try {
             System.out.println("Los numeros son " + num + " y " + num2);
         } catch (Exception e) {
-            // TODO: handle exception
             System.out.println(e.fillInStackTrace());
         }
 
@@ -33,7 +32,6 @@ public class LanzadorExcepciones {
         try {
             return num + num2;
         } catch (NumberFormatException e) {
-            // TODO: handle exception
             e.printStackTrace();
         }
 
