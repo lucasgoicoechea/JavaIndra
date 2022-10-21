@@ -1,12 +1,12 @@
 package Entregable1;
 
-public class Jamon extends CorteCerdo {
+public class Solomillo extends CorteCerdo {
 
-    String nombre = "jamon";
+    String nombre = "Solomillo";
 
-    public Jamon(String nombre, double precio) {
-        nombre = "Jamon";
-        precio = 8.9;
+    public Solomillo(String nombre, double precio) {
+        nombre = "Solomillo";
+        precio = 5.23;
     }
 
     public String getNombre() {
@@ -29,4 +29,5 @@ public class Jamon extends CorteCerdo {
 
         return "El producto es " + nombre + " y su precio es " + precio;
     }
+
 }
