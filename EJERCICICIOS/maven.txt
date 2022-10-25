@@ -9,5 +9,7 @@
       - una interfaces IInmueble
                   -> 2 metodos: getDireccion:String y getInventario:Inventario
 
+LLEGUEMOS AQUI HASTA 9AM
+
 ---------------- LUEGO
 Agregaremos la Libreria Lombok y aprenderemos a utilizarla
