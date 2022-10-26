@@ -1,0 +1,11 @@
+
+
+import javax.swing.JOptionPane;
+
+public class Cartel {
+	
+	public String mostrarCartel(String mensaje) {
+		return JOptionPane.showInputDialog(mensaje, null);
+	}
+
+}

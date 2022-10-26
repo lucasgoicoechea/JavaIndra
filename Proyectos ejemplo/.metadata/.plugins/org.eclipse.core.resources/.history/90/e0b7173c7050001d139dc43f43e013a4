@@ -1,0 +1,13 @@
+package es.indra.cursoJava;
+
+import javax.swing.JOptionPane;
+
+public class EjecutarTest {
+
+	public static void main(String[] args) {
+		//SWING and AWT 
+		JOptionPane.
+
+	}
+
+}
