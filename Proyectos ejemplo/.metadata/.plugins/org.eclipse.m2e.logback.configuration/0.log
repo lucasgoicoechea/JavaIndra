@@ -92,3 +92,62 @@ Caused by: java.lang.Exception: File not found: C:\Users\jjimbrol\Documents\GitH
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42) ~[na:na]
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38) ~[na:na]
 	... 27 common frames omitted
+2022-10-26 11:46:32,480 [Worker-59: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.indra:Proyectousuario-JJImbrol:0.0.1-SNAPSHOT @ C:\Users\jjimbrol\Documents\GitHub\JavaIndra\Proyectos ejemplo\Proyectousuario-JJImbrol\pom.xml.
+2022-10-26 11:46:32,881 [Worker-59: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyectousuario-JJImbrol/src/main/java
+2022-10-26 11:46:32,881 [Worker-59: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Proyectousuario-JJImbrol/src/main/resources
+2022-10-26 11:46:32,882 [Worker-59: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyectousuario-JJImbrol/src/test/java
+2022-10-26 11:46:32,882 [Worker-59: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Proyectousuario-JJImbrol/src/test/resources
+2022-10-26 11:46:33,548 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:46:33,557 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:46:33,560 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:46:33,569 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:47:04,371 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-26 11:48:21,992 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-26 11:49:01,619 [Worker-21: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.indra.ejericio:Proyectousuario-JJImbrol:0.0.1-SNAPSHOT @ C:\Users\jjimbrol\Documents\GitHub\JavaIndra\Proyectos ejemplo\Proyectousuario-JJImbrol\pom.xml.
+2022-10-26 11:49:01,962 [Worker-21: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyectousuario-JJImbrol/src/main/java
+2022-10-26 11:49:01,965 [Worker-21: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Proyectousuario-JJImbrol/src/main/resources
+2022-10-26 11:49:01,966 [Worker-21: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyectousuario-JJImbrol/src/test/java
+2022-10-26 11:49:01,967 [Worker-21: Creating project "Proyectousuario-JJImbrol"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Proyectousuario-JJImbrol/src/test/resources
+2022-10-26 11:49:03,142 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:49:03,166 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:49:03,169 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:49:03,179 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:49:49,164 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:49:49,190 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:49:49,193 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:49:49,205 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:15,076 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:15,085 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:15,087 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:15,095 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:44,754 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.indra.ejericio:Proyectousuario-JJImbrol:0.0.1-SNAPSHOT @ C:\Users\jjimbrol\Documents\GitHub\JavaIndra\Proyectos ejemplo\Proyectousuario-JJImbrol\pom.xml.
+2022-10-26 11:50:44,862 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:44,871 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:44,875 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:44,884 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:46,011 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.16.6/lombok-1.16.6-sources.jar
+2022-10-26 11:50:46,105 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:46,114 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:46,116 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:46,124 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:46,140 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.16.6/lombok-1.16.6-sources.jar
+2022-10-26 11:50:46,152 [Worker-6: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.16.6
+2022-10-26 11:50:47,155 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:47,163 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:47,164 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:47,171 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:53,549 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-26 11:50:53,725 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.indra.ejericio:Proyectousuario-JJImbrol:0.0.1-SNAPSHOT @ C:\Users\jjimbrol\Documents\GitHub\JavaIndra\Proyectos ejemplo\Proyectousuario-JJImbrol\pom.xml.
+2022-10-26 11:50:53,794 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyectousuario-JJImbrol/src/main/java
+2022-10-26 11:50:53,794 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Proyectousuario-JJImbrol/src/main/resources
+2022-10-26 11:50:53,794 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyectousuario-JJImbrol/src/test/java
+2022-10-26 11:50:53,795 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Proyectousuario-JJImbrol/src/test/resources
+2022-10-26 11:50:53,875 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-10-26 11:50:54,056 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:54,065 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:50:54,067 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:50:54,076 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:51:31,140 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:51:31,149 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-10-26 11:51:31,151 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-26 11:51:31,159 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
