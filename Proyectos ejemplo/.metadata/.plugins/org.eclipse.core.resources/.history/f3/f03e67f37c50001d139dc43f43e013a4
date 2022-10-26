@@ -1,0 +1,5 @@
+package es.indra.ejecutar;
+
+public class EjecutarMensaje {
+
+}
