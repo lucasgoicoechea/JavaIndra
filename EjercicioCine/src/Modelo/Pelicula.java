@@ -47,6 +47,24 @@ public class Pelicula {
 		this.tituloOriginal = tituloOriginal;
 	}
 	
+	public int calcularDuracionEnFuncion() {
+		return this.duracion;
+	}
+	
+	public boolean estaDisponible() {
+		return this.disponible;
+	}
+	
+	public boolean estaEnCartelera() {
+		Date aux=new Date();
+		if(this.getFechaingreso().after(aux)) {
+			disponible=false;
+		}else {
+			disponible=true;
+		}
+		return this.disponible;
+	}
+	
 	
 
 }
