@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author usuario
+ *
+ */
+module AddLibraryV1 {
+	requires java.desktop;
+}

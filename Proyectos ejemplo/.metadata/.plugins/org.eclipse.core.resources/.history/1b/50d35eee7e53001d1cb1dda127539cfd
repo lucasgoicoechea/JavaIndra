@@ -1,0 +1,14 @@
+package es.indra.cursoJava;
+
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class TestCartel {
+
+	@Test
+	public final void testMostrarCartel() {
+		Assert.assertEquals("se esperaba un string", "Hola", (new Cartel()).mostrarCartel(""));
+	}
+
+}

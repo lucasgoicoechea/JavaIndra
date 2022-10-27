@@ -1,0 +1,14 @@
+package miLibreria;
+
+public class CommonUtils {
+	
+	static CommonUtils instances = new CommonUtils();
+	
+	public CommonUtils() {
+		if (CommonUtils.instances != null) {
+			return CommonUtils.instances;
+		}
+		super();
+	}
+
+}
