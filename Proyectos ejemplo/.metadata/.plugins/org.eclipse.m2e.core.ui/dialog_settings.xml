@@ -51,16 +51,19 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="ProyectoUsuario-JAguilarV"/>
 			<item value="InmuebleMavenLombok"/>
 			<item value="sumaCien"/>
 			<item value="miLibreria"/>
 		</list>
 		<list key="name">
+			<item value="ProyectoUsuario-JAguilarV"/>
 			<item value="InmuebleMavenLombok"/>
 			<item value="sumaCien"/>
 			<item value="miLibreria"/>
 		</list>
 		<list key="artifactId">
+			<item value="ProyectoUsuario-JAguilarV"/>
 			<item value="InmuebleMavenLombok"/>
 			<item value="sumaCien"/>
 			<item value="miLibreria"/>

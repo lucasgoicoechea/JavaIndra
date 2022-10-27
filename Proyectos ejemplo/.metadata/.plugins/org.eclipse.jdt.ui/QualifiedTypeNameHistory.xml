@@ -9,7 +9,13 @@
     <fullyQualifiedTypeName name="java.lang.Deprecated"/>
     <fullyQualifiedTypeName name="es.indra.cursoJava.models.interfaces.ICorteCerdo"/>
     <fullyQualifiedTypeName name="es.indra.cursoJava.interfaces.IInmueble"/>
+    <fullyQualifiedTypeName name="es.indra.cursoJava.models.Inmueble"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="es.indra.cursoJava.models.Inmueble"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="es.indra.jaguilarv.entidades.Usuario"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
 </qualifiedTypeNameHistroy>
