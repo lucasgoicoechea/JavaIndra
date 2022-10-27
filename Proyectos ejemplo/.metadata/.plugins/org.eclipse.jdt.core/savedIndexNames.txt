@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\jaguilarv\Desktop\repoJava\miRepoJava\JavaIndra\Proyectos ejemplo\.metadata\.plugins\org.eclipse.jdt.core
+2726729990.index
+1865797976.index
+186583419.index
+2553595121.index
+88192460.index

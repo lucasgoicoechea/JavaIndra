@@ -1,0 +1,15 @@
+package miLibreria;
+
+
+/*CLASE SINGLETON O PATRON SINGLETON*/ 
+public class CommonUtils {
+	
+	static CommonUtils instances = new CommonUtils();
+	
+	public CommonUtils() {
+		if (CommonUtils.instances != null) {
+			return;
+		}
+	}
+
+}

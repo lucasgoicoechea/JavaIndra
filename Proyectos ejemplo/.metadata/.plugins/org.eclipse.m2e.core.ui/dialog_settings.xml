@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\usuario\repoCursoJava\JavaIndra\Proyectos ejemplo\sumaCien"/>
+			<item value="C:\Users\usuario\repoCursoJava\JavaIndra\Proyectos ejemplo\miLibreria\src\main\java\miLibreria\CommonUtils.java"/>
+			<item value="C:\Users\usuario\repoCursoJava\JavaIndra\Proyectos ejemplo\d-arq"/>
+			<item value="C:\Users\usuario\repoCursoJava\JavaIndra\Proyectos ejemplo\d"/>
+			<item value="C:\Users\usuario\repoCursoJava\JavaIndra\Proyectos ejemplo\generar-mensajes"/>
+			<item value="C:\Users\usuario\repoCursoJava\JavaIndra\Proyectos ejemplo\generarMensajes-library"/>
+			<item value="C:\Users\usuario\repoCursoJava\JavaIndra\Proyectos ejemplo\AddLibraryV1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="ProyectoUsuario-JAguilarV"/>
+			<item value="InmuebleMavenLombok"/>
+			<item value="sumaCien"/>
+			<item value="miLibreria"/>
+		</list>
+		<list key="name">
+			<item value="ProyectoUsuario-JAguilarV"/>
+			<item value="InmuebleMavenLombok"/>
+			<item value="sumaCien"/>
+			<item value="miLibreria"/>
+		</list>
+		<list key="artifactId">
+			<item value="ProyectoUsuario-JAguilarV"/>
+			<item value="InmuebleMavenLombok"/>
+			<item value="sumaCien"/>
+			<item value="miLibreria"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="632"/>
+		<item key="x" value="443"/>
+		<item key="y" value="10"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="generarMensajes-library"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="generarMensajes-library"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+</section>
