@@ -1,0 +1,74 @@
+
+public class Pelicula {
+	int id;
+	int anioEstreno;
+	boolean disponible;
+	int duracion;
+	String nombre;
+	String tituloOriginal;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getAnioEstreno() {
+		return anioEstreno;
+	}
+
+	public void setAnioEstreno(int anioEstreno) {
+		this.anioEstreno = anioEstreno;
+	}
+
+	public boolean isDisponible() {
+		return disponible;
+	}
+
+	public void setDisponible(boolean disponible) {
+		this.disponible = disponible;
+	}
+
+	public int getDuracion() {
+		return duracion;
+	}
+
+	public void setDuracion(int duracion) {
+		this.duracion = duracion;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getTituloOriginal() {
+		return tituloOriginal;
+	}
+
+	public void setTituloOriginal(String tituloOriginal) {
+		this.tituloOriginal = tituloOriginal;
+	}
+
+	public Pelicula(int id, int anioEstreno, boolean disponible, int duracion, String nombre, String tituloOriginal) {
+		super();
+		this.id = id;
+		this.anioEstreno = anioEstreno;
+		this.disponible = disponible;
+		this.duracion = duracion;
+		this.nombre = nombre;
+		this.tituloOriginal = tituloOriginal;
+	}
+
+	@Override
+	public String toString() {
+		return "Pelicula [id=" + id + ", anioEstreno=" + anioEstreno + ", disponible=" + disponible + ", duracion="
+				+ duracion + ", nombre=" + nombre + ", tituloOriginal=" + tituloOriginal + "]";
+	}
+
+}

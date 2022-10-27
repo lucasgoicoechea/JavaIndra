@@ -1,0 +1,22 @@
+package Main;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Controlador implements ActionListener {
+
+	public static int cnt_Ids = 1;
+	public Modelo modelo;
+	
+	public Contolador(Modelo modelo){
+		this.modelo;
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

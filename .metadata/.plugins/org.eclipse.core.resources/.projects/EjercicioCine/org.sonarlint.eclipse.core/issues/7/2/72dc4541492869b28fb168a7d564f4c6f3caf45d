@@ -1,0 +1,12 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€ÒşÿÿÿÿHĞRMINORZ
+CODE_SMELL
+…
+java:S1104"RMake modelo a static final constant or non-public and provide accessors if needed.(÷¸ğ8Ì’ş ¿0HÑRMINORZ
+CODE_SMELL
+m
+java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8Ì’ş ¿0HÒRMINORZ
+CODE_SMELL
+j
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8Ì’ş ¿0HÓRMINORZ
+CODE_SMELL

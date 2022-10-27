@@ -1,0 +1,76 @@
+import java.util.ArrayList;
+
+public class Modelo {
+	private ArrayList<Actor> actores;
+	private ArrayList<Calificacion> calificaciones;
+	private ArrayList<Cine> cines;
+	private ArrayList<Entrada> entradas;
+	private ArrayList<Genero> generos;
+	private ArrayList<HorarioFuncion> horarioFunciones;
+	private ArrayList<PaisOrigen> paisesOrigen;
+	private ArrayList<Pelicula> peliculas;
+	private ArrayList<Personaje> personajes;
+	private ArrayList<Programacion> programaciones;
+	private ArrayList<Rol> roles;
+	private ArrayList<Sala> salas;
+	private ArrayList<Sexo> sexos;
+
+	public Modelo(ArrayList<Actor> actores, ArrayList<Calificacion> calificaciones, ArrayList<Cine> cines,
+			ArrayList<Entrada> entradas, ArrayList<Genero> generos, ArrayList<HorarioFuncion> horarioFunciones,
+			ArrayList<PaisOrigen> paisesOrigen, ArrayList<Pelicula> peliculas, ArrayList<Personaje> personajes,
+			ArrayList<Programacion> programaciones, ArrayList<Rol> roles, ArrayList<Sala> salas,
+			ArrayList<Sexo> sexos) {
+		super();
+		this.actores = actores;
+		this.calificaciones = calificaciones;
+		this.cines = cines;
+		this.entradas = entradas;
+		this.generos = generos;
+		this.horarioFunciones = horarioFunciones;
+		this.paisesOrigen = paisesOrigen;
+		this.peliculas = peliculas;
+		this.personajes = personajes;
+		this.programaciones = programaciones;
+		this.roles = roles;
+		this.salas = salas;
+		this.sexos = sexos;
+	}
+
+	public ArrayList<Genero> getGeneros() {
+		return generos;
+	}
+
+	public void setGeneros() {
+		this.generos.add(new Genero("Accion"));
+		this.generos.add(new Genero("Comedia"));
+		this.generos.add(new Genero("Drama"));
+		this.generos.add(new Genero("Terror"));
+
+	}
+
+	public ArrayList<PaisOrigen> getPaisesOrigen() {
+		return paisesOrigen;
+	}
+
+	public void setPaisesOrigen() {
+		this.paisesOrigen.add(new PaisOrigen("Español", "España"));
+		this.paisesOrigen.add(new PaisOrigen("Inglés", "EEUU"));
+		this.paisesOrigen.add(new PaisOrigen("Inglés", "UK"));
+	}
+
+	public ArrayList<Sexo> getSexos() {
+		return sexos;
+	}
+
+	public void setSexos() {
+		this.sexos.add(new Sexo("Masculino"));
+		this.sexos.add(new Sexo("Femenino"));
+	}
+
+	public ArrayList<Pelicula> getPeliculas() {
+		return peliculas;
+	}
+
+	
+
+}
