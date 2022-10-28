@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\usuario\repoCursoJava\JavaIndra\Proyectos ejemplo\PacienteTestUnit"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,13 +44,22 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="TDDWarehouse-lgoicoecheaf"/>
+			<item value="PacienteTestUnit"/>
+			<item value="calculadoraTest"/>
 			<item value="es.indra.ejericio"/>
 			<item value="es.indra"/>
 			<item value="com.indra.es"/>
 		</list>
 		<list key="name">
+			<item value="TDDWarehouse-lgoicoecheaf"/>
+			<item value="PacienteTestUnit"/>
+			<item value="calculadoraTest"/>
 		</list>
 		<list key="artifactId">
+			<item value="TDDWarehouse-lgoicoecheaf"/>
+			<item value="PacienteTestUnit"/>
+			<item value="calculadoraTest"/>
 			<item value="Proyectousuario-JJImbrol"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -67,5 +77,11 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="2086"/>
+		<item key="y" value="166"/>
 	</section>
 </section>
