@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author dbriones
+ *
+ */
+module EjercicioCollectionsExceptions {
+}
